@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc {
+  border: 2px solid black;
+}
+.input {
+  margin: 20px;
+  width: 300px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.op {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.op div {
+  padding: 10px 25px;
+  border: 1px solid black;
+}
+
+.box {
+  width: 250px;
+  margin: 20px;
+}
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numbers div {
+  padding: 20px 30px;
+  border: 1px solid;
+  flex-direction: column-reverse;
+}
